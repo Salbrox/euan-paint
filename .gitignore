@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+# Windows build outputs (build_windows.bat)
+build-env/
+build/
+dist/
+*.spec
+euan-paint-icon.png
