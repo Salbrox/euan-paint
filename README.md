@@ -91,6 +91,12 @@ Forgot the combo? Press **Esc** and a reminder pops up for a few seconds.
 
 **Ctrl + Z** undoes, the same as the undo button.
 
+**Volume keys** on the keyboard work while the app is running, with a little
+volume bar at the top of the screen. (The app holds onto the keyboard so Euan
+can't escape, which means the desktop never sees those keys, so the app changes
+the volume itself. On Linux it uses `wpctl`, `pactl` or `amixer`, whichever is
+installed.) Volume and media keys never stamp shapes.
+
 **Toddler-proofing:**
 
 - It runs fullscreen and keeps hold of the mouse and keyboard.
